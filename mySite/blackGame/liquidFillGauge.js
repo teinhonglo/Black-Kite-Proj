@@ -104,7 +104,6 @@ function loadLiquidFillGauge(elementId, value, config) {
         .domain([0,1]);
 
     // Center the gauge within the parent SVG.
-	locationX = 0;
     var gaugeGroup = gauge.append("g")
         .attr('transform','translate('+locationX+','+locationY+')');
 
