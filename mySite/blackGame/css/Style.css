@@ -1,11 +1,18 @@
-# flow-tb{
+#flow-tb{
+	border-collapse:collapse;
+	background-image: url('../img/tb_bg.png');
+	background-size: cover;
 	width:100%;
 	height:100%;
+	text-align : center;
 }
 
 .bt_class{
-	margin: 0px auto;
 	width:50%;
 	height:auto;
 }
 
+.bt_td{
+	background-color:green;
+	opacity:0.8;
+}
