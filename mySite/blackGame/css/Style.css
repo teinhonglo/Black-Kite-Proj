@@ -8,16 +8,26 @@
 }
 
 .bt_class{
-	width:50%;
+	width:33%;
 	height:auto;
 }
 
-.bt_class:hover{
-	box-shadow:3px 3px 5px 6px #cccccc;
-}
-.bt_td{
-	background-color:green;
+.bt_td_odd{
+	background-color:#008800;
 	opacity:0.8;
+}
+
+.bt_td_even{
+	background-color:#00DD00;
+	opacity:0.8;
+}
+
+.bt_td_odd:hover{
+	opacity:0.5;
+}
+
+.bt_td_even:hover{
+	opacity:0.5;
 }
 
 #img_bK{
