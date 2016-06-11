@@ -27,8 +27,12 @@
 	opacity:0.8;
 }
 
-.bt_td_odd .bt_td_even:hover{
-	opacity:0.5;
+.bt_td_odd:hover{
+	opacity:0.6;
+}
+
+.bt_td_even:hover{
+	opacity:0.6;
 }
 
 #img_bK{
