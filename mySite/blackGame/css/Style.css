@@ -8,8 +8,13 @@
 }
 
 .bt_class{
-	width:33%;
+	max-width:33%;
 	height:auto;
+}
+
+.bt_class:hover{
+	cursor: pointer;
+	margin:5px 5px;
 }
 
 .bt_td_odd{
@@ -22,11 +27,7 @@
 	opacity:0.8;
 }
 
-.bt_td_odd:hover{
-	opacity:0.5;
-}
-
-.bt_td_even:hover{
+.bt_td_odd .bt_td_even:hover{
 	opacity:0.5;
 }
 
