@@ -76,9 +76,9 @@
       <!--END HEADER SECTION -->
     <!--ABOUT SECTION -->
     <div id="QA-section" >
-        <div class="container">
-            <div class="row main-top-margin text-center">
-                <div class="col-md-11 col-md-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.3s">
+        <div class="container text-center">
+            <div class="row main-top-margin">
+                <div class="col-md-12 col-md-offset-0 " data-scrollreveal="enter top and move 100px, wait 0.3s">
                     <h1>問答小遊戲</h1>
                     <h4>
                        黑鳶相關知識
@@ -87,32 +87,44 @@
             </div>
             <!-- ./ Main Heading-->
             <div class="problem_section" id="cover">
-				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
-                	<img src="assets\img\problem_5\QnA2_cover.png" />
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td>
+								<img src="assets\img\problem_5\QnA2_cover.png" />
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#p1" onclick="next_step('p1');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i> </a>
+							</td>
+						</tr>
+					</table>
 				</div>
             </div>
               <!-- ./ Row Content-->
         </div>
     </div>
-	<div id="p1" >
-        <div class="container">
+	<div id="p1" style="display:none;padding-bottom:80px">
+        <hr/>
+		<div class="container text-center">
 			<div class="problem_section">
-				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
                 	<table>
 						<tr>
 							<td colspan="3">
 								<img src="assets\img\problem_5\flow\QnA_flow.png"/>
 							</td>
 						</tr>
-						<tr  class="p_button" >
+						<tr class="p_button" >
 							<td>
-								<a href="#p1_ans"  onclick="display_ans('p1_ans');"><img src="assets\img\problem_5\AnswerBT\A1\Q1S1.png" style="max-width:80%;" /></a>
+								<a href="#p1_ans"  onclick="display_ans('p1_ans', 'p1');"><img id="p1_b1" src="assets/img/problem_5/AnswerBT/A1/Q1S1.png" /></a>
 							</td>
 							<td>
-								<a href="#p1_ans"><img src="assets\img\problem_5\AnswerBT\A1\Q1S2.png" style="max-width:80%;"/></a>
+								<a href="#p1_ans" onclick="display_ans('p1_ans', 'p1');"><img id="p1_b2" src="assets/img/problem_5/AnswerBT/A1/Q1S2.png"/></a>
 							</td>
 							<td>
-								<a href="#p1_ans"><img src="assets\img\problem_5\AnswerBT\A1\Q1S3.png" style="max-width:80%;"/></a>
+								<a href="#p1_ans" onclick="display_ans('p1_ans', 'p1');"><img id="p1_b3" src="assets/img/problem_5/AnswerBT/A1/Q1S3.png"/></a>
 							</td>
 						</tr>
 					</table>
@@ -121,19 +133,32 @@
         </div>
     </div>
 	<div id="p1_ans" style="display:none;">
-        <div class="container">
+		<hr/>
+        <div class="container text-center">
 			<div class="problem_section">
-				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
-                	<img src="assets\img\problem_5\QnA2-02.png" sytle="max-width:100%;"/>
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td>
+								<img src="assets\img\problem_5\QnA2-02.png" sytle="max-width:100%;"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#p1"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i> </a>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>
 	</div>
+	
     <!--WORK/PRODUCTS SECTION -->
     <div id="products-section" >
-         <div class="container" >
+         <div class="container text-center" >
             <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-                <div class="col-md-11 col-md-offset-1 ">
+                <div class="col-md-12 col-md-offset-0 ">
                     <h1>黑鳶小遊戲</h1>
                     <h4>
                        小遊戲描述
@@ -143,163 +168,13 @@
              <!-- ./ Main Heading-->
              <hr />
             <div class="row main-low-margin" >
-                <div class="col-md-11 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s">
+                <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
 					<iframe src="blackGame\index.html" style="width:100%; height:100%;"  frameborder="0" scrolling="no"></iframe> 
                 </div>
             </div>
         </div>
     </div>
-	
-    <!--END WORK/PRODUCTS SECTION --><!--WORK/PRODUCTS SECTION -->
-    <div id="products-section" >
-         <div class="container" >
-            <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-                <div class="col-md-8 col-md-offset-1 ">
-                    <h1>Our Valuable Clients</h1>
-                    <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h4>
-                </div>
-            </div>
-             <!-- ./ Main Heading-->
-             <hr />
-            <div class="row main-low-margin" >
-                <div class="col-md-10  col-md-offset-1 ">
- <div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-                    <img src="assets/img/product/prd1.png" alt="">
-                </div>
-                <div class="col-md-8 " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Client Portfolio No # 1 </strong></h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        <i class="fa fa-check"></i> Responsive Design<br />
-                     <i class="fa fa-check"></i> 24x7 Support <br />
-                       <i class="fa fa-check"></i> Well Documented<br />
-                    </p>
-                    <a href="#hello" class="btn btn-success" >See Live Demo</a>
-                </div>
-                </div>
-               
-            </div>
-            <!-- ./ Row Content-->
-            <hr />
-           <div id="hello" class="row main-low-margin bottam-pad" >
-
-                 <div class="col-md-10  col-md-offset-1 ">
-                <div class="col-md-8 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Client  Portfolio No # 2 </strong></h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        <i class="fa fa-check"></i> Responsive Design<br />
-                     <i class="fa fa-check"></i> 24x7 Support <br />
-                       <i class="fa fa-check"></i> Well Documented<br />
-                    </p>
-                    <a href="#" class="btn btn-danger" > See Live Demo</a>
-                </div>
-                <div class="col-md-4 " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    
-                    <img class="img-margin-product" src="assets/img/product/prd1.png" alt="">
-                </div>
-                     </div>
-            </div>
-              <!-- ./ Row Content-->
-        </div>
-    </div>
-    <!--END WORK/PRODUCTS SECTION -->
-    <!--CONTACT SECTION -->
-    <div id="contact-section">
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Contact / Hire Me</h1>
-                    <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row">
-                <div class="col-md-12  col-sm-12 ">
-                    <div class="col-md-6  " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                        <h3> My Work Location</h3>
-                        <hr />
-                        <p>
-                        103, Rola Street,<br />
-                            Demo Lane Road,<br />
-                            New York, USA.<br />                          
-                        Call: +23-00-89-009<br />
-                        Email: demo@yourdomain.com<br />
-                            </p>
-                       
-                    </div>
-                    <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                        <h3>Drop a Line or Hire Me </h3>
-                        <hr />
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                              <div class="row">
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control"  placeholder="Ref. (IF any)">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 ">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="3"  placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Submit Request</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-    </div>  
-    <!--END CONTACT SECTION --> 
+    
     <!--FOOTER SECTION -->
     <div id="footer">
         <div class="container">
@@ -322,8 +197,14 @@
        <!-- CUSTOM SCRIPT-->
     <script src="assets/js/custom.js"></script>
 	<script type="text/javascript">
-		function display_ans(problem_id){
+		function display_ans(problem_id, prob_id){
 			document.getElementById(problem_id).style.display = "block";
+			if(prob_id == 'p1'){
+				document.getElementById("p1_b3").src = "assets/img/problem_5/AnswerBT/A1/Q1A3.png";
+			}
+		}
+		function next_step(next_id){
+			document.getElementById(next_id).style.display = "block";
 		}
 	</script>
 </body>
