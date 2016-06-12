@@ -76,9 +76,9 @@
       <!--END HEADER SECTION -->
     <!--ABOUT SECTION -->
     <div id="QA-section" >
-        <div class="container" >
+        <div class="container">
             <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
+                <div class="col-md-11 col-md-offset-1 " data-scrollreveal="enter top and move 100px, wait 0.3s">
                     <h1>問答小遊戲</h1>
                     <h4>
                        黑鳶相關知識
@@ -86,52 +86,49 @@
                 </div>
             </div>
             <!-- ./ Main Heading-->
-            <div class="row main-low-margin text-center">
-                <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <img class="img-circle" src="assets/img/team/team1.png" alt="">
-                    <h4><strong>Jhon Deo Alex</strong> </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. 
-
-                    </p>
-                    <p>
-                       <a href="#"><i class="fa fa-facebook-square fa-2x color-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter-square fa-2x color-twitter"></i></a>
-                        <a href="#"><i class="fa fa-google-plus-square fa-2x color-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
-                        <a href="#"><i class="fa fa-pinterest-square fa-2x color-pinterest"></i></a>
-                    </p>
-
-                </div>
-             
-                <div class="col-md-7 col-sm-7 col-md-offset-1  text-justify" data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h3> Lorem ipsum dolor sit amet Riopsh</h3>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
-                    </p>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
-                    </p>
-                </div>
+            <div class="problem_section" id="cover">
+				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<img src="assets\img\problem_5\QnA2_cover.png" />
+				</div>
             </div>
               <!-- ./ Row Content-->
         </div>
     </div>
-    <!-- END ABOUT SECTION -->
-   
-   
+	<div id="p1" >
+        <div class="container">
+			<div class="problem_section">
+				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td colspan="3">
+								<img src="assets\img\problem_5\flow\QnA_flow.png"/>
+							</td>
+						</tr>
+						<tr  class="p_button" >
+							<td>
+								<a href="#p1_ans"  onclick="display_ans('p1_ans');"><img src="assets\img\problem_5\AnswerBT\A1\Q1S1.png" style="max-width:80%;" /></a>
+							</td>
+							<td>
+								<a href="#p1_ans"><img src="assets\img\problem_5\AnswerBT\A1\Q1S2.png" style="max-width:80%;"/></a>
+							</td>
+							<td>
+								<a href="#p1_ans"><img src="assets\img\problem_5\AnswerBT\A1\Q1S3.png" style="max-width:80%;"/></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+            </div>
+        </div>
+    </div>
+	<div id="p1_ans" style="display:none;">
+        <div class="container">
+			<div class="problem_section">
+				<div class="col-md-8 col-md-offset-1" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<img src="assets\img\problem_5\QnA2-02.png" sytle="max-width:100%;"/>
+				</div>
+			</div>
+		</div>
+	</div>
     <!--WORK/PRODUCTS SECTION -->
     <div id="products-section" >
          <div class="container" >
@@ -152,11 +149,12 @@
             </div>
         </div>
     </div>
+	
     <!--END WORK/PRODUCTS SECTION --><!--WORK/PRODUCTS SECTION -->
     <div id="products-section" >
          <div class="container" >
             <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-                <div class="col-md-8 col-md-offset-2 ">
+                <div class="col-md-8 col-md-offset-1 ">
                     <h1>Our Valuable Clients</h1>
                     <h4>
                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -323,5 +321,11 @@
     <script src="assets/js/scrollReveal.js"></script>
        <!-- CUSTOM SCRIPT-->
     <script src="assets/js/custom.js"></script>
+	<script type="text/javascript">
+		function display_ans(problem_id){
+			document.getElementById(problem_id).style.display = "block";
+		}
+	</script>
 </body>
+
 </html>

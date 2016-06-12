@@ -204,4 +204,24 @@ color: #FFFFFF;
     padding: 10px 30px 10px 30px;
 }
 
+/*
+	my style
+*/
+#p1 div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-01.png');
+}
 
+.problem_section div table{
+	text-align:center;
+}
+
+.p_button td img{
+	padding-bottom:10px;
+	padding-top:5px;
+}
+
+.p_button td img:hover{
+	cursor:pointer;
+	width:100%;
+}
