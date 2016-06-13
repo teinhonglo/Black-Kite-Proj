@@ -217,6 +217,26 @@ color: #FFFFFF;
 	background-image: url('../img/problem_5/QnA2-01.png');
 }
 
+#p2 div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-03.png');
+}
+
+#p3 div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-05.png');
+}
+
+#p4 div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-07.png');
+}
+
+#p5 div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-09.png');
+}
+
 .problem_section div table{
 	border-spacing:0;
 	border-collapse:collapse;
