@@ -12,30 +12,30 @@
 </head>
 <body>
 
-<table id="flow-tb">
-	<tr style="max-width:80%;">
-		<td colspan="2" id="img_bK">
-			<img style="max-width:100%;" src="img/black_kite_1.png" alt="Black_Kite" id="SS0">
-		</td>
-		<td colspan="2" id="img_liguid">
-			<svg id="fillgauge5" style="max-width:50%;"></svg>
-		</td>
-	</tr>
-	<tr style="max-width:20%;">
-		<td class="bt_td_odd">
+<div id="flow-tb">
+	<div style="max-height:90%;max-width:100%;">
+		<div id = "img_bk">
+			<img id="SS0" src="img/black_kite_1.png" alt="Black_Kite" />
+			
+			<svg id="img_liquid"></svg>
+		</div>
+	</div>
+	<br />
+	<div style="max-height:10%;max-width:100%;">
+		<div class="bt_td_odd">
 			<img class="bt_class" id="bt_pesticide" src="img/all1-01.png" alt="pesticide" onclick="gauge5.update(NewValue('5'));" />
-		</td>
-		<td class="bt_td_even">
+		</div>
+		<div class="bt_td_even">
 			<img class="bt_class" id="bt_sparrow" src="img/all1-02.png" alt="sparrow" onclick="gauge5.update(NewValue('10'));" />
-		</td>
-		<td class="bt_td_odd">
+		</div>
+		<div class="bt_td_odd">
 			<img class="bt_class" id="bt_ratPoison" src="img/all1-03.png" alt="ratPoison" onclick="gauge5.update(NewValue('15'));" />
-		</td>
-		<td class="bt_td_even">
+		</div>
+		<div class="bt_td_even">
 			<img class="bt_class" id="bt_mouse" src="img/all1-04.png" alt="mouse" onclick="gauge5.update(NewValue('15'));" />
-		</td>
-	</tr>
-</table>
+		</div>
+	</div>
+</div>
 
 <script type="text/javascript">
     var config4 = liquidFillGaugeDefaultSettings();
@@ -54,7 +54,7 @@
     config4.textSize = 0.75;
     config4.waveCount = 3;
 	var waterHeight = 0.00;
-    var gauge5 = loadLiquidFillGauge("fillgauge5", waterHeight, config4);
+    var gauge5 = loadLiquidFillGauge("img_liquid", waterHeight, config4);
 	
     function NewValue(option){
 		value_f = parseInt(option);

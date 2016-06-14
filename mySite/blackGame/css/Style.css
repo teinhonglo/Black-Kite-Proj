@@ -13,17 +13,21 @@
 }
 
 .bt_class:hover{
-	cursor: pointer;
+	cursor:pointer;
 	margin:0px 5px;
 }
 
 .bt_td_odd{
 	background-color:#008800;
+	float:left;
+	width:25%;
 	opacity:0.8;
 }
 
 .bt_td_even{
 	background-color:#00DD00;
+	float:left;
+	width:25%;
 	opacity:0.8;
 }
 
@@ -35,10 +39,18 @@
 	opacity:0.6;
 }
 
-#img_bK{
-	text-align:right;
+#img_bk{
+	float:left;
+	max-width:100%;
+	background-image: url('../img/tb_bg.png');
+	background-size: cover;
 }
 
-#img_liguid{
+#SS0{
+	max-width:93%;
+}
+
+#img_liquid{
+	max-width:7%;
 	text-align:left;
 }
