@@ -43,8 +43,8 @@
 
 #img_bk{
 	float:left;
-	max-width:100%;
-	background-image: #99D9F6;
+	width:100%;
+	background-color: #99D9F6;
 	background-size: cover;
 }
 
