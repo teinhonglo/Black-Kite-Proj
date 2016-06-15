@@ -49,10 +49,12 @@
 }
 
 #SS0{
-	width:93%;
+	width:90%;
+	position: relative;
 }
 
 #img_liquid{
-	width:7%;
+	width:10%;
 	text-align:left;
+	position: relative;
 }
