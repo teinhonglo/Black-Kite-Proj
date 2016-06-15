@@ -27,6 +27,7 @@
 .bt_td_even{
 	background-color:#00DD00;
 	float:left;
+	position:relative;
 	width:25%;
 	opacity:0.8;
 }
