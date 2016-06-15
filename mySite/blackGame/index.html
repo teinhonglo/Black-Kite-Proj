@@ -28,22 +28,27 @@
 						<tr>
 							<td>
 								<div class="bt_td_odd">
-									<img class="bt_class" id="bt_pesticide" src="img/all1-01.png" alt="pesticide" onclick="gauge5.update(NewValue('5'));" />
+									<img class="bt_class" id="bt_pesticide" src="img/all1-01.png" alt="pesticide" onclick="gauge5.update(NewValue('20'));" />
 								</div>
 							</td>
 							<td>
 								<div class="bt_td_even">
-									<img class="bt_class" id="bt_sparrow" src="img/all1-02.png" alt="sparrow" onclick="gauge5.update(NewValue('10'));" />
+									<img class="bt_class" id="bt_sparrow" src="img/all1-02.png" alt="sparrow" onclick="gauge5.update(NewValue('15'));" />
 								</div>
 							</td>
 							<td>
 								<div class="bt_td_odd">
-									<img class="bt_class" id="bt_ratPoison" src="img/all1-03.png" alt="ratPoison" onclick="gauge5.update(NewValue('15'));" />
+									<img class="bt_class" id="bt_ratPoison" src="img/all1-03.png" alt="ratPoison" onclick="gauge5.update(NewValue('10'));" />
 								</div>
 							</td>
 							<td>
 								<div class="bt_td_even">
-									<img class="bt_class" id="bt_mouse" src="img/all1-04.png" alt="mouse" onclick="gauge5.update(NewValue('15'));" />
+									<img class="bt_class" id="bt_mouse" src="img/all1-04.png" alt="mouse" onclick="gauge5.update(NewValue('8'));" />
+								</div>			
+							</td>
+							<td>
+								<div class="bt_td_odd">
+									<img class="bt_class" id="bt_mouse" src="img/all1-05.png" alt="up" onclick="gauge5.update(NewValue('-10'));" />
 								</div>			
 							</td>
 						</tr>
@@ -77,8 +82,8 @@
 		value_f = parseInt(option);
 		waterHeight += value_f;
 		
-		if(waterHeight > 100)
-			waterHeight = 100;
+		if(waterHeight > 100) 	waterHeight = 100;
+		else if(waterHeight < 0) waterHeight = 0;
 			
 		isDead(waterHeight);
 		return waterHeight;
