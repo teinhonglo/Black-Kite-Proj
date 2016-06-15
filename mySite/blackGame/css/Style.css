@@ -20,7 +20,7 @@
 .bt_td_odd{
 	background-color:#008800;
 	float:left;
-	width:25%;
+	width:100%;
 	position:relative;
 	opacity:0.8;
 }
@@ -29,7 +29,7 @@
 	background-color:#00DD00;
 	float:left;
 	position:relative;
-	width:25%;
+	width:100%;
 	opacity:0.8;
 }
 
