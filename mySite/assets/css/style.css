@@ -132,14 +132,6 @@ p {
     color:black;
     font-weight:900;
 }
-/* ==========================================================================
-   ABOUT SECTION
-   ========================================================================== */
-
-#QA-section {
-    background-color: #FAFAFA;
-}
-
 
 /*==========================================
    SOCIAL ICON STYLES
@@ -212,6 +204,64 @@ color: #FFFFFF;
 /*
 	my style
 */
+
+/* ==========================================================================
+   ABOUT SECTION
+   ========================================================================== */
+
+#QA-section {
+    background-color:#99D9F6;
+}
+
+#p1{
+	background-color:#99D9F6;
+}
+
+#p1_ans{
+	background-color:#99D9F6;
+}
+
+#p2{
+	background-color:#99D9F6;
+}
+
+#p2_ans{
+	background-color:#99D9F6;
+}
+
+#p3{
+	background-color:#99D9F6;
+}
+
+#p3_ans{
+	background-color:#99D9F6;
+}
+
+#p4{
+	background-color:#99D9F6;
+}
+
+#p4_ans{
+	background-color:#99D9F6;
+}
+
+#p5{
+	background-color:#99D9F6;
+}
+
+#p5_ans{
+	background-color:#99D9F6;
+}
+
+#p_end{
+	background-color:#99D9F6;
+}
+
+#blackGamer{
+	background-color:#99D9F6;
+}
+/* div table of each section */
+
 #p1 div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-01.png');
