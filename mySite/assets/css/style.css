@@ -257,19 +257,19 @@ color: #FFFFFF;
 	background-color:#99D9F6;
 }
 
-#CommonSense{
+#PopularScience{
 	background-color:#99D9F6;
 }
 
-#cs1{
+#ps1{
 	background-color:#99D9F6;
 }
 
-#cs2{
+#ps2{
 	background-color:#99D9F6;
 }
 
-#cs3{
+#ps3{
 	background-color:#99D9F6;
 }
 
@@ -327,6 +327,21 @@ color: #FFFFFF;
 #p5_ans div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-10.png');
+}
+
+#p_end div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-11.png');
+}
+
+#p_end div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-11.png');
+}
+
+#p_end div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-11.png');
 }
 
 #p_end div table{
