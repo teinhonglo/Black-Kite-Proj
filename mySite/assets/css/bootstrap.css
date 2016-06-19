@@ -1404,11 +1404,11 @@ pre code {
   }
 }
 table {
-  max-width: 100%;
+  width: 100%;
   background-color: transparent;
 }
 th {
-  text-align: left;
+  text-align: center;
 }
 .table {
   width: 100%;
