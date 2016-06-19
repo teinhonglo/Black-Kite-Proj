@@ -110,7 +110,7 @@ p {
 
 #header-section h1 {
 	margin-top: 120px;
-	color: white;
+	color: #880000;
 	font-size: 65px;
 	font-weight: 900;
 	letter-spacing: 4px;
@@ -118,7 +118,7 @@ p {
 }
 
 #header-section h2 {
-	color: white;
+	color: #880000;
 	font-size: 40px;
 	font-weight: 900;
 	letter-spacing: 4px;
@@ -278,6 +278,10 @@ color: #FFFFFF;
 }
 
 #distribution{
+	background-color:#99D9F6;
+}
+
+#distribution_tw{
 	background-color:#99D9F6;
 }
 
