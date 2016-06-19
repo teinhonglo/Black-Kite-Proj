@@ -334,20 +334,21 @@ color: #FFFFFF;
 	background-image: url('../img/problem_5/QnA2-11.png');
 }
 
-#p_end div table{
+#PopularScience div table{
 	max-width:100%;
-	background-image: url('../img/problem_5/QnA2-11.png');
+	background-image: url('../img/repopulation/Repopulation_01.png');
 }
 
-#p_end div table{
+#ps1 div table{
 	max-width:100%;
-	background-image: url('../img/problem_5/QnA2-11.png');
+	background-image: url('../img/repopulation/Repopulation_02.png');
 }
 
-#p_end div table{
+#ps2 div table{
 	max-width:100%;
-	background-image: url('../img/problem_5/QnA2-11.png');
+	background-image: url('../img/repopulation/Repopulation_03.png');
 }
+
 
 .problem_section div table{
 	border-spacing:0;
