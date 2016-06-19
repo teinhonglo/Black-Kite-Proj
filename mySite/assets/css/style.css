@@ -257,9 +257,26 @@ color: #FFFFFF;
 	background-color:#99D9F6;
 }
 
+#CommonSense{
+	background-color:#99D9F6;
+}
+
+#cs1{
+	background-color:#99D9F6;
+}
+
+#cs2{
+	background-color:#99D9F6;
+}
+
+#cs3{
+	background-color:#99D9F6;
+}
+
 #blackGamer{
 	background-color:#99D9F6;
 }
+
 /* div table of each section */
 
 #p1 div table{
@@ -267,9 +284,19 @@ color: #FFFFFF;
 	background-image: url('../img/problem_5/QnA2-01.png');
 }
 
+#p1_ans div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-02.png');
+}
+
 #p2 div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-03.png');
+}
+
+#p2_ans div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-04.png');
 }
 
 #p3 div table{
@@ -277,14 +304,34 @@ color: #FFFFFF;
 	background-image: url('../img/problem_5/QnA2-05.png');
 }
 
+#p3_ans div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-06.png');
+}
+
 #p4 div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-07.png');
 }
 
+#p4_ans div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-08.png');
+}
+
 #p5 div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-09.png');
+}
+
+#p5_ans div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-10.png');
+}
+
+#p_end div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2-11.png');
 }
 
 .problem_section div table{
@@ -303,4 +350,8 @@ color: #FFFFFF;
 .p_button td img:hover{
 	cursor:pointer;
 	max-width:202px;
+}
+
+img {
+	width:100%;
 }
