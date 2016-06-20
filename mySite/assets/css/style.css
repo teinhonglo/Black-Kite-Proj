@@ -287,6 +287,11 @@ color: #FFFFFF;
 
 /* div table of each section */
 
+#QA-section div table{
+	max-width:100%;
+	background-image: url('../img/problem_5/QnA2_cover.png');
+}
+
 #p1 div table{
 	max-width:100%;
 	background-image: url('../img/problem_5/QnA2-01.png');
