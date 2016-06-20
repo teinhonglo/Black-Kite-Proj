@@ -274,6 +274,10 @@ color: #FFFFFF;
 	background-color:#99D9F6;
 }
 
+#ps4{
+	background-color:#99D9F6;
+}
+
 #blackGamer{
 	background-color:#99D9F6;
 }
@@ -283,6 +287,22 @@ color: #FFFFFF;
 }
 
 #distribution_tw{
+	background-color:#99D9F6;
+}
+
+#Repopulation{
+	background-color:#99D9F6;
+}
+
+#rp1{
+	background-color:#99D9F6;
+}
+
+#rp2{
+	background-color:#99D9F6;
+}
+
+#rp3{
 	background-color:#99D9F6;
 }
 
@@ -350,20 +370,43 @@ color: #FFFFFF;
 
 #PopularScience div table{
 	max-width:100%;
-	background-image: url('../img/repopulation/Repopulation_01.png');
+	background-image: url('../img/popularScience/PopularScience_01.jpg');
 }
 
 #ps1 div table{
 	max-width:100%;
-	background-image: url('../img/repopulation/Repopulation_02.png');
+	background-image: url('../img/popularScience/PopularScience_02.jpg');
 }
 
 #ps2 div table{
 	max-width:100%;
-	background-image: url('../img/repopulation/Repopulation_03.png');
+	background-image: url('../img/popularScience/PopularScience_03.jpg');
 }
 
+#ps3 div table{
+	max-width:100%;
+	background-image: url('../img/popularScience/PopularScience_04.jpg');
+}
 
+#ps4 div table{
+	max-width:100%;
+	background-image: url('../img/popularScience/PopularScience_05.jpg');
+}
+
+#Repopulation div table{
+	max-width:100%;
+	background-image: url('../img/repopulation/Repopulation_01.png');
+}
+
+#rp1 div table{
+	max-width:100%;
+	background-image: url('../img/repopulation/Repopulation_02.png');
+}
+
+#rp2 div table{
+	max-width:100%;
+	background-image: url('../img/repopulation/Repopulation_03.png');
+}
 .problem_section div table{
 	border-spacing:0;
 	border-collapse:collapse;

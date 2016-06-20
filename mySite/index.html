@@ -58,6 +58,7 @@
                     <li><a href="#QA-section">黑鳶知多少</a></li>
 					<li><a href="#PopularScience">黑鳶科普</a></li>
                     <li><a href="#blackGamer">黑鳶覓食大作戰</a></li>
+					<li><a href="#Repopulation">黑鳶復育</a></li>
                 </ul>
             </div>
            
@@ -429,7 +430,7 @@
 					<table>
 						<tr>
 							<td>
-								<iframe src="video/index.html" style="width:760px; height:600px;"  frameborder="0" scrolling="no"></iframe> 
+								<img src="assets\img\repopulation\flow\flow_CS.png"/>
 							</td>
 						</tr>
 						<tr>
@@ -442,7 +443,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="distribution" >
+	<div id="distribution" style="display:none">
          <div class="container text-center" >
 			<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
                 <div class="col-md-12 col-md-offset-0 ">
@@ -452,12 +453,23 @@
              <!-- ./ Main Heading-->
             <div class="row main-low-margin" >
                 <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<iframe id="map_frame" src="map/WorldMap.htm" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+					<table>
+						<tr>
+							<td>
+								<iframe id="map_frame" src="map/WorldMap.htm" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#distribution_tw" onclick="next_step('distribution_tw');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i></a>
+							</td>
+						</tr>
+					</table>
                 </div>
             </div>
         </div>
     </div>
-	<div id="distribution_tw" >
+	<div id="distribution_tw" style="display:none">
          <div class="container text-center" >
 			<div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
                 <div class="col-md-12 col-md-offset-0 ">
@@ -467,11 +479,42 @@
              <!-- ./ Main Heading-->
             <div class="row main-low-margin" >
                 <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<iframe id="map_frame" src="map/DivergingTaiwanCounty.htm" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+					<table>
+						<tr>
+							<td>
+								<iframe id="map_frame" src="map/DivergingTaiwanCounty.htm" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#ps4" onclick="next_step('ps4');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i></a>
+							</td>
+						</tr>
+					</table>
                 </div>
             </div>
         </div>
     </div>
+	<div id="ps4" style="display:none;padding-top:50px">
+        <div class="container text-center" >
+            <div class="row main-low-margin" >
+                <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
+					<table>
+						<tr>
+							<td>
+								<iframe src="video/index.html" style="width:760px; height:600px;"  frameborder="0" scrolling="no"></iframe> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#blackGamer" onclick="next_step('blackGamer');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i></a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="blackGamer" >
          <div class="container text-center" >
             <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
@@ -485,12 +528,88 @@
              <!-- ./ Main Heading-->
             <div class="row main-low-margin" >
                 <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
-					<iframe src="blackGame/index.html" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+					<iframe src="blackGame/index.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
         </div>
     </div>
-    
+    <div id="Repopulation" style="padding-bottom:50px;">
+        <div class="container text-center">
+            <!-- ./ Main Heading-->
+            <div class="problem_section" id="cover">
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td>
+								<img src="assets\img\repopulation\flow\flow_CS.png"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#rp1" style="z-index:1;" onclick="next_step('rp1');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i> </a>
+							</td>
+						</tr>
+					</table>
+				</div>
+            </div>
+              <!-- ./ Row Content-->
+        </div>
+    </div>
+	<div id="rp1" style="display:none;padding-top:50px;padding-bottom:50px;">
+        <div class="container text-center">
+			<div class="problem_section">
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td>
+								<img src="assets\img\repopulation\flow\flow_CS.png"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#rp2" onclick="next_step('rp2');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i> </a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rp2" style="display:none;padding-top:50px;padding-bottom:50px;">
+        <div class="container text-center">
+			<div class="problem_section">
+				<div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s" style="max-width:100%;">
+                	<table>
+						<tr>
+							<td>
+								<img src="assets\img\repopulation\flow\flow_CS.png"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#rp3" onclick="next_step('rp3');"><i class="fa fa-angle-double-down fa-5x my-down-icon"></i> </a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rp3" style="display:none;padding-top:50px;padding-bottom:50px;">
+        <div class="container text-center" >
+            <div class="row main-low-margin" >
+                <div class="col-md-12 col-md-offset-0" data-scrollreveal="enter right and move 100px, wait 0.4s">
+					<table>
+						<tr>
+							<td>
+								<iframe src="video/index.html" style="width:760px; height:600px;"  frameborder="0" scrolling="no"></iframe> 
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
     <!--FOOTER SECTION -->
     <div id="footer">
         <div class="container">
