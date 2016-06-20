@@ -36,6 +36,8 @@ h1 {
 
 .distribution{
     color:#000000;
+	font-weight: 700;
+	text-shadow:-2px 2px #FFFFFF;
 }
 
 h4{
