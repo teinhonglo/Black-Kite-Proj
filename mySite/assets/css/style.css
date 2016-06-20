@@ -12,7 +12,7 @@
    GENERAL STYLES   
    ============================================================*/
 body {
-   font-family:'Microsoft JhengHei','Open Sans', sans-serif;
+    font-family:'華康超明體','Microsoft JhengHei','Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #000;   
@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Microsoft JhengHei','Open Sans', sans-serif;
+    font-family:'華康超明體','Microsoft JhengHei','Open Sans', sans-serif;
     font-weight: 500;
     line-height:40px;
    
