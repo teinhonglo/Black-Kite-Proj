@@ -49,11 +49,15 @@
 }
 
 #SS0{
-	max-width:90%;
+	padding-top:30px;
+	padding-bottom:30px;
+	max-width:88%;
 	position: relative;
 }
 
 #img_liquid{
-	max-width:10%;
+	max-width:12%;
 	position: relative;
+	padding-top:30px;
+	padding-bottom:30px;
 }
