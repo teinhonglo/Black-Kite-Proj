@@ -12,6 +12,7 @@
    GENERAL STYLES   
    ============================================================*/
 @import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 body {
     font-family:'華康超明體','Microsoft JhengHei','Open Sans', sans-serif;
     font-weight: 400;
@@ -31,6 +32,10 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     color:#11B674;
     font-weight: 700;
+}
+
+h4{
+	font-family:'cwTeXHei', 'Microsoft JhengHei','Open Sans', sans-serif;
 }
 .text-center {
     text-align: center; 
