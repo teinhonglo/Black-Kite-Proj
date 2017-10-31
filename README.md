@@ -1,4 +1,5 @@
-test-repo
+Black-Kite project
 =========
 
-just test repo
+Project:
+Black-Kite(http://teinhonglo.github.io/Black-Kite-Proj/index.html)
